@@ -1,0 +1,32 @@
+body {
+    background-image: url(./AMANECER.jpg)
+}
+a {
+    color:gray;
+
+}
+div {
+    padding: 10px;
+    margin:   100 ;
+}
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:xx-large;
+    color:yellow;
+    text-align: center;
+}
+h2 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:olivedrab
+}
+.vinetas {
+    list-style-type:upper-roman;
+    color:darkgreen
+}
+.boton:hover {
+    background-color: aqua;
+}
+
+.btn-btn-primary:active {
+color: blueviolet;
+}

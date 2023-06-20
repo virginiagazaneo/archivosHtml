@@ -1,0 +1,192 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 1115px;
+    width: 1000px;
+    border: solid red;
+    justify-content: space-around;
+    border-radius:30px;
+}
+
+.arriba {
+    margin: 5px;
+    height: 530px;
+    width: 940px;
+    border: solid blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 30px;
+}
+.abajo {
+    margin: 5px;
+    height: 530px;
+    width: 940px;
+    border: solid blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 30px;
+}
+.sup1 {
+    margin:5px;
+    height: 100px;
+    width: 940px;
+    border: solid black;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    justify-content: space-between;
+}
+.inf1 {
+    margin: 5px;
+    height: 400px;
+    width: 920px;
+    border: solid orange;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-radius: 30px;
+    justify-content: end;
+}
+.sup2 {
+    margin:5px;
+    height: 400px;
+    width: 920px;
+    border: solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-radius: 30px;
+}
+.inf2 {
+    margin: 5px;
+    height: 100px;
+    width: 920px;
+    border: solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-radius: 30px;
+    background-color: aqua;
+    justify-content: space-between;
+}
+.divizq {
+    margin: 5px;
+    height: 380px;
+    width:300px;
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;  
+    background-color: brown;
+    color:white;
+}
+.divcentro {
+    margin: 5px;
+    height: 380px;
+    width: 300px;
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;  
+    background-color: lightskyblue;
+    color:white;
+}
+.divder{
+    margin: 5px;
+    height: 380px;
+    width: 300px;
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px; 
+    background-color: orange;
+    color:white;
+}
+.izquierda2 {
+    margin: 5px;
+    height: 390px;
+    width: 600px;
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px; 
+    background-color: darkgreen;
+    color:white;
+}
+.derecha2 {
+    margin: 5px;
+    height: 390px;
+    width: 300px;
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;  
+    background-color: red;
+    color:white;
+}
+.encabezado {
+    margin: 10px;
+    height: 30px;
+    width: 560px;
+    display: flex;
+    flex-direction: row; 
+    color:black;
+    
+  
+}
+.menu {
+    margin:10px;
+    height: 30px;
+    width: 320px;
+    display: flex;
+    flex-direction: row; 
+    background-color: lightgreen;
+    color:white;
+    
+}
+.logo {
+    margin: 10px;
+    height: 30px;
+    width: 150px;
+    display: flex;
+    flex-direction: row; 
+    color:white;
+    background-color:darkblue;
+    
+}
+.menu2 {
+    margin: 10px;
+    height: 30px;
+    width: 560px;
+    display: flex;
+    flex-direction: row; 
+    color:white;
+    background-color:brown;
+   
+}
+.pie {
+    margin: 10px;
+    height: 30px;
+    width: 300px;
+    display: flex;
+    flex-direction: row; 
+    color:black;
+    align-items: flex-start;
+    
+}
+.elemento {
+    margin: 10px;
+    height: 30px;
+    width: 300px;
+    display: flex;
+    flex-direction: row; 
+    color:white;
+    background-color:brown;
+    align-self: flex-end;
+ 
+}
